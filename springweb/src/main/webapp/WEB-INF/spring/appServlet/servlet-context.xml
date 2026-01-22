@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/mvc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:websocket="http://www.springframework.org/schema/websocket"
+	xsi:schemaLocation="http://www.springframework.org/schema/websocket https://www.springframework.org/schema/websocket/spring-websocket.xsd
+		http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- 어노테이션 bean 을 탐색할 위치를 설정 -->
+	<context:component-scan base-package="com.bs.spring"/>
+	
+	<!-- spring 이 mvc 관련 어노테이션을 조회(@Controller) -->		
+	<annotation-driven/>
+	
+	<!-- 정적리소스(css, js 등) 경로 설정 -->
+	<resources location="/resources/" mapping="/resources/**"></resources>
+	
+	<!-- 기본 viewResolver 객체 bean 등록 -->
+	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<beans:property name="prefix" value="/WEB-INF/views/"/>
+		<beans:property name="suffix" value=".jsp"/>
+	</beans:bean>
+	
+	<!-- springbean 등록하기 -->
+	<!-- 기본생성자로 생성 -->
+	<beans:bean id="animal" class="com.bs.spring.model.dto.Animal"/>
+	<!-- 생성된 bean 에 setter 를 이용해서 초기값 설정하기 -->
+	<beans:bean id="animal2" class="com.bs.spring.model.dto.Animal">
+		<beans:property name="name" value="코코"/>
+		<beans:property name="age" value="14"/>
+		<beans:property name="weight" value="5.5"/>
+		<beans:property name="type" value="dog"/>
+	</beans:bean>
+	
+	<!-- 매개변수가 1개인 생성자, dto 클래스에 매개변수 개수가 같은 생성자가 있어야함 -->
+	<beans:bean id="animal3" class="com.bs.spring.model.dto.Animal">
+		<beans:constructor-arg index="0" value="도꾸"/>
+	</beans:bean>
+	
+	<beans:bean id="jm" class="com.bs.spring.model.dto.Person" init-method="" destroy-method="">
+		<beans:property name="name" value="김재민"/>
+		<beans:property name="age" value="25"/>
+		<beans:property name="height" value="175.9"/>
+		<beans:property name="animal" ref="animal2"/>
+	</beans:bean>
+	
+	<!-- interceptor 등록하기 -->
+	<beans:bean id="basicInter" class="com.bs.spring.common.interceptor.BasicInterceptor"/>
+	<interceptors>
+	<!-- <interceptor>
+			<mapping path="/**"/>
+			<exclude-mapping path="/demo/**"/>
+			<beans:ref bean="basicInter"/>
+		</interceptor> -->
+		<interceptor>
+			<mapping path="/demo/**"/>
+			<exclude-mapping path="/demo/demo.do"/>
+			<beans:ref bean="loginCheckInter"/>
+		</interceptor>	
+	</interceptors>
+	<beans:bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<beans:property name="maxUploadSize" value="104857600"/>
+	</beans:bean>
+</beans:beans>

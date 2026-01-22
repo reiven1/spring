@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Appenders>
+		<!--  출력할 방식  -->
+		<Console name="console">
+			<PatternLayout pattern="[%-5p] %d{yyyy-MM-dd HH:mm:ss} %m%n"/>
+<!-- 			<PatternLayout pattern="[%-5p] %d{yyyy-MM-dd HH:mm:ss} : %l - %m%n"/> -->
+		</Console>
+		<RollingFile name="rollingFile" fileName="C:\Users\knuser\spring-workspace\springweb/logs/spring-log.log" filePattern="C:\Users\knuser\spring-workspace\springweb/logs/log-%d{yyyy-MM-dd}.log">
+			<!-- <Patternlayout pattern="[%-5p] %d{yyyy-MM-dd HH:mm:ss} : %l - %m%n"/> -->
+			<JsonTemplatelayout eventTemplateUri="classpath:mylayout.json"/>
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="24"/> <!-- 24시간 -->
+				<SizeBasedTriggeringPolicy size="100MB"/> <!-- 100MB -->
+			</Policies>
+		</RollingFile>
+	</Appenders>
+	<Loggers>
+		<logger name="com.bs.spring" level="DEBUG">
+			<AppenderRef ref="rollingFile"/>
+		</logger>
+		<!--  출력대상을 설정  -->
+		<Logger name="org.springframework.context" level="INFO"/>
+		<Logger name="org.springframework.core" level="INFO"/>
+		<Logger name="org.springframework.web" level="INFO"/>
+		<Logger name="org.springframework.bean" level="INFO"/>
+		<Root level="WARN">
+			<AppenderRef ref="console"/>
+		</Root>
+	</Loggers>
+</Configuration>

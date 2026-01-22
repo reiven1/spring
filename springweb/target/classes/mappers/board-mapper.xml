@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="board">
+	<select id="selectAll" resultType="board" parameterType="map"> 
+		SELECT * FROM BOARD ORDER BY BOARDDATE DESC 
+	</select>
+	<select id="selectCount" resultType="int"> 
+		SELECT COUNT(*) FROM BOARD
+	</select>
+	<resultMap id="boardMap" type="board">
+		<id column="boardno" property="boardNo"/>
+		<result column="boardtitle" property="boardTitle"/>
+		<result column="boardwriter" property="boardWriter"/>
+		<result column="boarddate" property="boardDate"/>
+		<result column="boardreadcount" property="boardReadcount"/>
+		<collection property="files" ofType="attach">
+			<id column="attachmentno" property="attachmentNo"/>
+			<result column="originalfilename" property="originalFilename"/>
+			<result column="renamedfilename" property="renamedFilename"/>
+			<result column="uploaddate" property="uploadDate"/>
+			<result column="downloadcount" property="downloadCount"/>
+		</collection>
+	</resultMap>
+	<select id="selectByNo" resultMap="boardMap" parameterType="int"> 
+		SELECT * FROM BOARD LEFT JOIN ATTACHMENT USING(BOARDNO) 
+		WHERE BOARDNO = #{no} 
+	</select>
+	<insert id="insertBoard" parameterType="board"> 
+		INSERT INTO BOARD VALUES(SEQ_BOARDNO.NEXTVAL, #{boardTitle}, #{boardWriter}, #{boardContent}, sysdate, default)
+		<selectKey keyProperty="boardNo" order="AFTER" resultType="int">
+			SELECT SEQ_BOARDNO.CURRVAL FROM DUAL
+		</selectKey> 
+	</insert>
+	<update id="updateBoardReadcount" parameterType="int"> 
+		UPDATE BOARD SET BOARDREADCOUNT = BOARDREADCOUNT + 1 WHERE BOARDNO = #{no} 
+	</update>
+	<insert id="insertAttach" parameterType="attach">
+		INSERT INTO ATTACHMENT VALUES(SEQ_ATTACHMENTNO.NEXTVAL, #{boardRef}, #{originalFilename}, #{renamedFilename}, default, default, default)
+	</insert>
+	<delete id="deleteAttach" parameterType="int">
+		
+	</delete>
+</mapper>

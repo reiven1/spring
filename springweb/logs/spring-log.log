@@ -1,0 +1,1193 @@
+{"level":"DEBUG","logger":"com.bs.spring.logtest.LogTestController","instant":"2026-01-20T12:43:41","message":"개발할 때 사용하는 로그"}
+{"level":"INFO","logger":"com.bs.spring.logtest.LogTestController","instant":"2026-01-20T12:43:41","message":"프로그램 런타임 중 알려줄 사항을 남길 때"}
+{"level":"WARN","logger":"com.bs.spring.logtest.LogTestController","instant":"2026-01-20T12:43:41","message":"프로그램 이용에 대한 경고를 출력"}
+{"level":"ERROR","logger":"com.bs.spring.logtest.LogTestController","instant":"2026-01-20T12:43:41","message":"에러 결과 출력 -> 프로그램이 중단!"}
+{"level":"DEBUG","logger":"com.bs.spring.logtest.LogTestController","instant":"2026-01-20T12:49:37","message":"개발할 때 사용하는 로그"}
+{"level":"INFO","logger":"com.bs.spring.logtest.LogTestController","instant":"2026-01-20T12:49:37","message":"프로그램 런타임 중 알려줄 사항을 남길 때"}
+{"level":"WARN","logger":"com.bs.spring.logtest.LogTestController","instant":"2026-01-20T12:49:37","message":"프로그램 이용에 대한 경고를 출력"}
+{"level":"ERROR","logger":"com.bs.spring.logtest.LogTestController","instant":"2026-01-20T12:49:37","message":"에러 결과 출력 -> 프로그램이 중단!"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T15:51:26","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T15:51:26","message":"요청주소 : /springweb/"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T15:51:26","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T15:51:26","message":"응답화면 이름 : index"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T15:51:26","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T15:51:26","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T15:51:26","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T15:51:40","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T15:51:40","message":"요청주소 : /springweb/bean/beantest"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T15:51:40","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T15:51:40","message":"응답화면 이름 : index"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T15:51:40","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T15:51:40","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T15:51:40","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:16:02","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:16:02","message":"요청주소 : /springweb/demo/demolist.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:16:06","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:16:06","message":"응답화면 이름 : demo/demoList"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:16:06","message":"모델 저장 데이터 : {demos=[Demo(devNo=7, devName=123, devAge=123, devEmail=123!123.om, devGender=M, devLang=[Java, C], birthDay=null, address=null), Demo(devNo=89, devName=123, devAge=123, devEmail=123@123, devGender=M, devLang=[Java, C], birthDay=null, address=null), Demo(devNo=91, devName=2323kj, devAge=2323, devEmail=2324, devGender=M, devLang=[C], birthDay=null, address=null), Demo(devNo=82, devName=JM, devAge=25, devEmail=JM@JM, devGender=M, devLang=[Java, C], birthDay=null, address=null), Demo(devNo=77, devName=osh, devAge=25, devEmail=al@al.al, devGender=M, devLang=[Java, Javascript], birthDay=null, address=null), Demo(devNo=80, devName=osh22, devAge=24, devEmail=al@al.al, devGender=M, devLang=[Java, Javascript], birthDay=null, address=null), Demo(devNo=6, devName=test, devAge=18, devEmail=test@test.com, devGender=M, devLang=[Java, Javascript], birthDay=null, address=null), Demo(devNo=8, devName=test122, devAge=20, devEmail=20@20.com, devGender=F, devLang=[Java, C], birthDay=null, address=null), Demo(devNo=14, devName=김클래스, devAge=19, devEmail=yoo@yoo.com, devGender=M, devLang=[java, ruby, go, c#], birthDay=null, address=null), Demo(devNo=12, devName=김클래스, devAge=19, devEmail=yoo@yoo.com, devGender=F, devLang=[java, ruby, go, C#], birthDay=null, address=null)], pagebar=<ul class='pagination justify-content-center'><li class='page-item disabled'><a class='page-link' href='#'>이전</a></li><li class='page-item' disabled><a class='page-link' href='#'>1</a></li><li class='page-item'><a class='page-link' href='/springweb/demo/demolist.do?cPage=2&numPerPage=10'>2</a></li><li class='page-item' disabled><a class='page-link' href='#'>다음</a></li></ul>, count=18}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:16:07","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:16:07","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:20:23","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:20:23","message":"요청주소 : /springweb/demo/demolist.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:20:26","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:20:26","message":"응답화면 이름 : demo/demoList"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:20:26","message":"모델 저장 데이터 : {demos=[Demo(devNo=7, devName=123, devAge=123, devEmail=123!123.om, devGender=M, devLang=[Java, C], birthDay=null, address=null), Demo(devNo=89, devName=123, devAge=123, devEmail=123@123, devGender=M, devLang=[Java, C], birthDay=null, address=null), Demo(devNo=91, devName=2323kj, devAge=2323, devEmail=2324, devGender=M, devLang=[C], birthDay=null, address=null), Demo(devNo=82, devName=JM, devAge=25, devEmail=JM@JM, devGender=M, devLang=[Java, C], birthDay=null, address=null), Demo(devNo=77, devName=osh, devAge=25, devEmail=al@al.al, devGender=M, devLang=[Java, Javascript], birthDay=null, address=null), Demo(devNo=80, devName=osh22, devAge=24, devEmail=al@al.al, devGender=M, devLang=[Java, Javascript], birthDay=null, address=null), Demo(devNo=6, devName=test, devAge=18, devEmail=test@test.com, devGender=M, devLang=[Java, Javascript], birthDay=null, address=null), Demo(devNo=8, devName=test122, devAge=20, devEmail=20@20.com, devGender=F, devLang=[Java, C], birthDay=null, address=null), Demo(devNo=14, devName=김클래스, devAge=19, devEmail=yoo@yoo.com, devGender=M, devLang=[java, ruby, go, c#], birthDay=null, address=null), Demo(devNo=12, devName=김클래스, devAge=19, devEmail=yoo@yoo.com, devGender=F, devLang=[java, ruby, go, C#], birthDay=null, address=null)], pagebar=<ul class='pagination justify-content-center'><li class='page-item disabled'><a class='page-link' href='#'>이전</a></li><li class='page-item' disabled><a class='page-link' href='#'>1</a></li><li class='page-item'><a class='page-link' href='/springweb/demo/demolist.do?cPage=2&numPerPage=10'>2</a></li><li class='page-item' disabled><a class='page-link' href='#'>다음</a></li></ul>}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:20:26","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:20:26","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:20:43","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:20:43","message":"요청주소 : /springweb/member/login"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:20:43","message":"key : userId"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:20:43","message":"key : password"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T16:20:43","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T16:20:43","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T16:20:43","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:20:43","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:20:43","message":"응답화면 이름 : redirect:/"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:20:43","message":"모델 저장 데이터 : {loginMember=Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14), org.springframework.validation.BindingResult.loginMember=org.springframework.validation.BeanPropertyBindingResult: 0 errors}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:20:43","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:20:43","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:20:43","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:20:43","message":"요청주소 : /springweb/"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:20:43","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:20:43","message":"응답화면 이름 : index"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:20:43","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:20:43","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:20:43","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:21:49","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:21:49","message":"요청주소 : /springweb/"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:21:49","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:21:49","message":"응답화면 이름 : index"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:21:49","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:21:49","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:21:49","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:22:02","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:22:02","message":"요청주소 : /springweb/"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:22:24","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:22:24","message":"요청주소 : /springweb/"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:22:44","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:22:44","message":"요청주소 : /springweb/"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:24:38","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:24:38","message":"요청주소 : /springweb/"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:25:28","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:25:28","message":"요청주소 : /springweb/"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:25:32","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:25:32","message":"요청주소 : /springweb/"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:26:01","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:26:01","message":"요청주소 : /springweb/"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:30:47","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:30:47","message":"요청주소 : /springweb/"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:30:47","message":"실행 컨트롤러 : com.bs.spring.controller.HomeController@3455547f"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:30:47","message":"매핑 메소드 : index"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:30:48","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:30:48","message":"응답화면 이름 : index"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:30:48","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:30:48","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:30:48","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:31:17","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:31:17","message":"요청주소 : /springweb/demo/demolist.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:31:17","message":"실행 컨트롤러 : com.bs.spring.controller.demo.DemoController@82f89e6"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:31:17","message":"매핑 메소드 : searchDemoAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:31:19","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:31:19","message":"응답화면 이름 : demo/demoList"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:31:19","message":"모델 저장 데이터 : {demos=[Demo(devNo=7, devName=123, devAge=123, devEmail=123!123.om, devGender=M, devLang=[Java, C], birthDay=null, address=null), Demo(devNo=89, devName=123, devAge=123, devEmail=123@123, devGender=M, devLang=[Java, C], birthDay=null, address=null), Demo(devNo=91, devName=2323kj, devAge=2323, devEmail=2324, devGender=M, devLang=[C], birthDay=null, address=null), Demo(devNo=82, devName=JM, devAge=25, devEmail=JM@JM, devGender=M, devLang=[Java, C], birthDay=null, address=null), Demo(devNo=77, devName=osh, devAge=25, devEmail=al@al.al, devGender=M, devLang=[Java, Javascript], birthDay=null, address=null), Demo(devNo=80, devName=osh22, devAge=24, devEmail=al@al.al, devGender=M, devLang=[Java, Javascript], birthDay=null, address=null), Demo(devNo=6, devName=test, devAge=18, devEmail=test@test.com, devGender=M, devLang=[Java, Javascript], birthDay=null, address=null), Demo(devNo=8, devName=test122, devAge=20, devEmail=20@20.com, devGender=F, devLang=[Java, C], birthDay=null, address=null), Demo(devNo=14, devName=김클래스, devAge=19, devEmail=yoo@yoo.com, devGender=M, devLang=[java, ruby, go, c#], birthDay=null, address=null), Demo(devNo=12, devName=김클래스, devAge=19, devEmail=yoo@yoo.com, devGender=F, devLang=[java, ruby, go, C#], birthDay=null, address=null)], pagebar=<ul class='pagination justify-content-center'><li class='page-item disabled'><a class='page-link' href='#'>이전</a></li><li class='page-item' disabled><a class='page-link' href='#'>1</a></li><li class='page-item'><a class='page-link' href='/springweb/demo/demolist.do?cPage=2&numPerPage=10'>2</a></li><li class='page-item' disabled><a class='page-link' href='#'>다음</a></li></ul>}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:31:19","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:31:19","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:31:46","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:31:46","message":"요청주소 : /springweb/demo/demo.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:31:46","message":"실행 컨트롤러 : com.bs.spring.controller.demo.DemoController@82f89e6"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:31:46","message":"매핑 메소드 : demo"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:31:46","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:31:46","message":"응답화면 이름 : demo/demo"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:31:46","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:31:46","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:31:46","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"요청주소 : /springweb/"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"실행 컨트롤러 : com.bs.spring.controller.HomeController@79eb5fc1"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"매핑 메소드 : index"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"응답화면 이름 : index"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:56","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:57","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:33:59","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:04","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:04","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:04","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:04","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:04","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:04","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:05","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@281e8589"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:26","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:42","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:42","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:42","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@1627fd0f"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:42","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:42","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:42","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:42","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:42","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:34:42","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:36:05","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:36:05","message":"요청주소 : /springweb/demo/demo.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:36:05","message":"실행 컨트롤러 : com.bs.spring.controller.demo.DemoController@239ad0c1"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:36:05","message":"매핑 메소드 : demo"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:36:05","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:36:05","message":"응답화면 이름 : demo/demo"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:36:05","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:36:05","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:36:05","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:37:33","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:37:33","message":"요청주소 : /springweb/demo/demo.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:37:33","message":"실행 컨트롤러 : com.bs.spring.controller.demo.DemoController@935bccc"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:37:33","message":"매핑 메소드 : demo"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:37:33","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:37:33","message":"응답화면 이름 : demo/demo"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:37:33","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:37:35","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:37:35","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:38:53","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:38:53","message":"요청주소 : /springweb/demo/demo.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:38:53","message":"실행 컨트롤러 : com.bs.spring.controller.demo.DemoController@38f058ec"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:38:53","message":"매핑 메소드 : demo"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:38:53","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:38:53","message":"응답화면 이름 : demo/demo"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:38:53","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:38:54","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:38:54","message":"에러 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:40:16","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:40:16","message":"요청주소 : /springweb/demo/demo.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:40:16","message":"실행 컨트롤러 : com.bs.spring.controller.demo.DemoController@610fdfd9"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:40:16","message":"매핑 메소드 : demo"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:40:16","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:40:16","message":"응답화면 이름 : demo/demo"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:40:16","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:40:16","message":"==== afterCompletion 실행 ===="}
+{"level":"ERROR","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:40:16","message":"에러 : java.lang.NullPointerException: Cannot invoke \"String.length()\" because \"name\" is null"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:43:05","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:43:05","message":"요청주소 : /springweb/member/insertmember.do"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:43:05","message":"실행 컨트롤러 : com.bs.spring.controller.member.MemberController@22a99b5d"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:43:05","message":"매핑 메소드 : insertMember"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:43:05","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:43:05","message":"응답화면 이름 : member/member"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:43:05","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:43:05","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:45:28","message":"==== prehandle 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:45:28","message":"요청주소 : /springweb/bean/beantest"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:45:28","message":"실행 컨트롤러 : com.bs.spring.controller.BeanController@24f67fad"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:45:28","message":"매핑 메소드 : beantest"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:45:28","message":"==== 메소드 실행 완료 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:45:28","message":"응답화면 이름 : index"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:45:28","message":"모델 저장 데이터 : {}"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.BasicInterceptor","instant":"2026-01-20T16:45:28","message":"==== afterCompletion 실행 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.DemoInterceptor","instant":"2026-01-20T17:00:20","message":""}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.DemoInterceptor","instant":"2026-01-20T17:00:31","message":""}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:00:31","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:00:31","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:00:34","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.DemoInterceptor","instant":"2026-01-20T17:00:34","message":""}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:01:29","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:01:29","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:01:32","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.DemoInterceptor","instant":"2026-01-20T17:01:48","message":"key : userId"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.DemoInterceptor","instant":"2026-01-20T17:01:48","message":"key : password"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:01:48","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:01:48","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:01:51","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:08:41","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:08:41","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:08:44","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:09:21","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:09:21","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:09:24","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:11:31","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:11:31","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:11:34","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.DemoInterceptor","instant":"2026-01-20T17:12:22","message":"index"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:12:26","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:12:26","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:12:29","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.DemoInterceptor","instant":"2026-01-20T17:12:29","message":"redirect:/"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.DemoInterceptor","instant":"2026-01-20T17:12:29","message":"index"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:39:57","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:39:57","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:40:00","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:43:16","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:43:16","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-20T17:43:19","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-20T17:51:30","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@7b7ee662"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-20T17:51:30","message":"bean 갯수 : 51"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-20T17:52:44","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@2a530f63"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-20T17:52:44","message":"bean 갯수 : 51"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-20T17:52:45","message":"로그인 후 이용할 수 있습니다."}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-20T17:53:20","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@5f1a6c80"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-20T17:53:20","message":"bean 갯수 : 51"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-20T17:53:20","message":"msg : 로그인 후 이용할 수 있습니다."}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-22T10:38:23","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@586f6022"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-22T10:38:23","message":"bean 갯수 : 54"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-22T10:38:23","message":"msg : 로그인 후 이용할 수 있습니다."}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T10:47:16","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T10:47:16","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T10:47:16","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T10:49:20","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T10:49:20","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T10:49:23","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.board.BoardController","instant":"2026-01-22T10:49:35","message":"upFile"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.board.BoardController","instant":"2026-01-22T10:49:35","message":"memo.txt"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.board.BoardController","instant":"2026-01-22T10:49:35","message":"2804"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-22T10:51:42","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@1ed8516e"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-22T10:51:42","message":"bean 갯수 : 55"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T11:28:15","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T11:28:15","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T11:28:15","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T11:28:51","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T11:28:51","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T11:28:51","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T11:32:32","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T11:32:32","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T11:32:36","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.board.BoardController","instant":"2026-01-22T11:32:48","message":"C:\\Users\\knuser\\spring-workspace\\springweb\\src\\main\\webapp\\resources\\upload\\board"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.board.BoardController","instant":"2026-01-22T12:25:29","message":"C:\\Users\\knuser\\spring-workspace\\springweb\\src\\main\\webapp\\resources\\upload\\board"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T15:25:09","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T15:25:09","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T15:25:09","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T15:26:39","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T15:26:39","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T15:26:44","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T15:28:52","message":"원본 비밀번호 : reiven12"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T15:28:52","message":"인코딩 비밀번호 : $2a$10$LfHpSIngsHvBK098a3ju1e/SMS2uGm3IVRhnM5XkqDsC/fOsP4vNi"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T15:28:58","message":"reiven1"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T15:28:58","message":"reiven12"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T15:28:58","message":"Member(userId=reiven1, password=$2a$10$LfHpSIngsHvBK098a3ju1e/SMS2uGm3IVRhnM5XkqDsC/fOsP4vNi, userName=하승우, gender=M, age=25, email=reiven_@naver.com, phone=01049776038, address=123, hobby=[운동, 등산, 독서, 게임, 여행], enrollDate=2026-01-22)"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T16:17:18","message":"reiven1"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T16:17:18","message":"reiven12"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T16:17:18","message":"Member(userId=reiven1, password=$2a$10$LfHpSIngsHvBK098a3ju1e/SMS2uGm3IVRhnM5XkqDsC/fOsP4vNi, userName=하승우, gender=M, age=25, email=reiven_@naver.com, phone=01049776038, address=123, hobby=[운동, 등산, 독서, 게임, 여행], enrollDate=2026-01-22)"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T16:20:31","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T16:20:31","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T16:20:31","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T16:47:05","message":"reiven1"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T16:47:05","message":"reiven12"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T16:47:06","message":"Member(userId=reiven1, password=$2a$10$LfHpSIngsHvBK098a3ju1e/SMS2uGm3IVRhnM5XkqDsC/fOsP4vNi, userName=하승우, gender=M, age=25, email=reiven_@naver.com, phone=01049776038, address=123, hobby=[운동, 등산, 독서, 게임, 여행], enrollDate=2026-01-22)"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:17:27","message":"==== AOP BEFORE ADVICE ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:17:27","message":"index"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:17:27","message":"com.bs.spring.controller.HomeController"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:17:27","message":"==========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-22T18:17:36","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@d263e68"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-22T18:17:36","message":"bean 갯수 : 60"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-22T18:17:36","message":"msg : 로그인 후 이용할 수 있습니다."}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:17:40","message":"==== AOP BEFORE ADVICE ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:17:40","message":"index"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:17:40","message":"com.bs.spring.controller.HomeController"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:17:40","message":"==========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:17:42","message":"==== AOP BEFORE ADVICE ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:17:42","message":"boardlist"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:17:42","message":"com.bs.spring.controller.board.BoardController"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:17:42","message":"==========================="}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T18:19:59","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T18:19:59","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T18:20:04","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:20:05","message":"==== AOP BEFORE ADVICE ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:20:05","message":"demo"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:20:05","message":"com.bs.spring.controller.demo.DemoController"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:20:05","message":"==========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-22T18:20:11","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@29044902"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-22T18:20:11","message":"bean 갯수 : 60"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:20:11","message":"==== AOP BEFORE ADVICE ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:20:11","message":"searchDemoAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:20:11","message":"com.bs.spring.controller.demo.DemoController"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:20:11","message":"==========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-22T18:22:14","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@56cb707c"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-22T18:22:14","message":"bean 갯수 : 60"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-22T18:22:14","message":"msg : 로그인 후 이용할 수 있습니다."}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T18:22:18","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T18:22:18","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T18:22:22","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-22T18:22:41","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@56cb707c"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-22T18:22:41","message":"bean 갯수 : 60"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:22:41","message":"==== AOP BEFORE ADVICE ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:22:41","message":"searchDemoAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:22:41","message":"com.bs.spring.controller.demo.DemoController"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:22:41","message":"==========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-22T18:23:04","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@14ae78f"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-22T18:23:04","message":"bean 갯수 : 60"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-22T18:23:04","message":"msg : 로그인 후 이용할 수 있습니다."}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T18:23:39","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T18:23:39","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-22T18:23:43","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:23:50","message":"==== AOP BEFORE ADVICE ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:23:50","message":"demo"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:23:50","message":"com.bs.spring.controller.demo.DemoController"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.LoggerAspect","instant":"2026-01-22T18:23:50","message":"==========================="}
