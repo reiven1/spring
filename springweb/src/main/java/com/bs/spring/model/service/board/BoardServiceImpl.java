@@ -5,6 +5,7 @@ import java.util.Map;
 
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.bs.spring.model.dao.board.AttachmentDao;
 import com.bs.spring.model.dao.board.BoardDao;
@@ -27,14 +28,23 @@ public class BoardServiceImpl implements BoardService {
 	}
 
 	@Override
+	@Transactional
 	public int insertBoard(Board board) {
-		int result = dao.insertBoard(session, board);
-		if (result > 0 && board.getFiles().size() > 0) {
-			for (Attachment a : board.getFiles()) {
-				a.setBoardRef(board.getBoardNo());
-				result = attachDao.insertAttachment(session, a);
+		int result = 0;
+		try {
+			result = dao.insertBoard(session, board);
+			if (result > 0 && board.getFiles().size() > 0) {
+				for (Attachment a : board.getFiles()) {
+					a.setBoardRef(board.getBoardNo());
+					result = attachDao.insertAttachment(session, a);
+				}
 			}
+
+		} catch (RuntimeException e) {
+			e.printStackTrace();
+			throw new RuntimeException("저장 실패");
 		}
+
 		return result;
 	}
 

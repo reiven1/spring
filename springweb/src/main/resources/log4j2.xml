@@ -3,10 +3,10 @@
 	<Appenders>
 		<!--  출력할 방식  -->
 		<Console name="console">
-			<PatternLayout pattern="[%-5p] %d{yyyy-MM-dd HH:mm:ss} %m%n"/>
+			<PatternLayout pattern="[%-5p] %d{yyyy-MM-dd HH:mm:ss} : %l - %m%n"/>
 <!-- 			<PatternLayout pattern="[%-5p] %d{yyyy-MM-dd HH:mm:ss} : %l - %m%n"/> -->
 		</Console>
-		<RollingFile name="rollingFile" fileName="C:\Users\knuser\spring-workspace\springweb/logs/spring-log.log" filePattern="C:\Users\knuser\spring-workspace\springweb/logs/log-%d{yyyy-MM-dd}.log">
+		<RollingFile name="rollingFile" fileName="C:\Users\knuser\git\spring\springweb/logs/spring-log.log" filePattern="C:\Users\knuser\spring-workspace\springweb/logs/log-%d{yyyy-MM-dd}.log">
 			<!-- <Patternlayout pattern="[%-5p] %d{yyyy-MM-dd HH:mm:ss} : %l - %m%n"/> -->
 			<JsonTemplatelayout eventTemplateUri="classpath:mylayout.json"/>
 			<Policies>

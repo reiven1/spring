@@ -6,6 +6,7 @@ import java.util.Map;
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.stereotype.Service;
 
+import com.bs.spring.common.aop.MyAnnotation;
 import com.bs.spring.model.dao.demo.DemoDao;
 import com.bs.spring.model.dto.Demo;
 
@@ -17,6 +18,7 @@ public class DemoServiceImpl implements DemoService {
 	private final DemoDao dao;
 	private final SqlSession session;
 	
+	@MyAnnotation
 	@Override
 	public List<Demo> searchDemoAll(int cPage, int numPerPage) {
 		// TODO Auto-generated method stub

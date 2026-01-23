@@ -20,4 +20,12 @@ public class LoggerAspect {
 		log.debug(sig.getDeclaringTypeName()); // 클래스 명
 		log.debug("===========================");
 	}
+
+	public void after(JoinPoint joinPoint) {
+		log.debug("==== AOP AFTER ADVICE ====");
+//		Signature sig = joinPoint.getSignature();
+//		log.debug(sig.getName()); // 실행할 메소드
+//		log.debug(sig.getDeclaringTypeName()); // 클래스 명
+		log.debug("==========================");
+	}
 }

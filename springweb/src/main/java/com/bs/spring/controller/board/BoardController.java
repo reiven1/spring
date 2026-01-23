@@ -112,8 +112,17 @@ public class BoardController {
 				e.printStackTrace();
 			}
 		}
-		int result = service.insertBoard(b);
-		// 분기처리
+		try {
+			service.insertBoard(b);
+		} catch (RuntimeException e) {
+			// 실패
+			b.getFiles().forEach(file -> {
+				File delFile = new File(path, file.getRenamedFilename());
+				if (delFile.exists())
+					delFile.delete();
+			});
+			return "redirect:/board/boardwrite.do";
+		}
 		return "redirect:/board/boardlist.do";
 	}
 

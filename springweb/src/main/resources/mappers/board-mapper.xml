@@ -35,7 +35,7 @@
 		UPDATE BOARD SET BOARDREADCOUNT = BOARDREADCOUNT + 1 WHERE BOARDNO = #{no} 
 	</update>
 	<insert id="insertAttach" parameterType="attach">
-		INSERT INTO ATTACHMENT VALUES(SEQ_ATTACHMENTNO.NEXTVAL, #{boardRef}, #{originalFilename}, #{renamedFilename}, default, default, default)
+		INSERT INTO ATTACHMENT VALUES(SEQ_ATTACHMENTN.NEXTVAL, #{boardRef}, #{originalFilename}, #{renamedFilename}, default, default, default)
 	</insert>
 	<delete id="deleteAttach" parameterType="int">
 		
