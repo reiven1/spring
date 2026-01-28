@@ -48,13 +48,13 @@
 	</beans:bean>
 	
 	<!-- interceptor 등록하기 -->
-	<beans:bean id="basicInter" class="com.bs.spring.common.interceptor.BasicInterceptor"/>
+	<!-- <beans:bean id="basicInter" class="com.bs.spring.common.interceptor.BasicInterceptor"/>
 	<interceptors>
-	<!-- <interceptor>
+	<interceptor>
 			<mapping path="/**"/>
 			<exclude-mapping path="/demo/**"/>
 			<beans:ref bean="basicInter"/>
-		</interceptor> -->
+		</interceptor>
 		<interceptor>
 			<mapping path="/demo/**"/>
 			<exclude-mapping path="/demo/demo.do"/>
@@ -64,7 +64,7 @@
 			<mapping path="/board/**"/>
 			<beans:ref bean="loginCheckInter"/>
 		</interceptor>	
-	</interceptors>
+	</interceptors> -->
 	<beans:bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
 		<beans:property name="maxUploadSize" value="104857600"/>
 	</beans:bean>

@@ -162,6 +162,12 @@ div#demo-container {
 						onclick="requestTest('insertdemo.do')">demo 추가</button>
 				</div>
 			</div>
+			<div class="form-group row">
+				<div class="col-sm-12">
+					<button class="btn btn-outline-primary col-sm-12" type="button"
+						onclick="requestTest2('demo.do')">validator</button>
+				</div>
+			</div>
 		</form>
 	</div>
 </section>
@@ -184,6 +190,11 @@ div#demo-container {
 	const requestTest = (url) => {
 		const form=document.getElementById("devFrm");
 		form.action=`${path}/demo/\${url}`;
+		form.submit();
+	}
+	const requestTest2 = (url) => {
+		const form=document.getElementById("devFrm");
+		form.action=`${path}/validator/\${url}`;
 		form.submit();
 	}
 </script>

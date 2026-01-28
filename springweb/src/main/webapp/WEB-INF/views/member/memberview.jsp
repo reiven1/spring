@@ -21,7 +21,7 @@ table#tbl-dev {
 		</tr>
 		<tr>
 			<th>이름</th>
-			<td>${member.userName }</td>
+			<td>${member.name }</td>
 		</tr>
 		<tr>
 			<th>성별</th>

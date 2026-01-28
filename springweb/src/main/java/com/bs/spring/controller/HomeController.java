@@ -14,10 +14,13 @@ public class HomeController {
 	public String index(HttpSession session, HttpServletRequest request, HttpServletResponse response) {
 		session.setAttribute("saveId", "admin");
 		
-		Cookie c = new Cookie("mycookie", "두쫀쿠");
-		c.setMaxAge(60*60*4);
-		response.addCookie(c);
+		/*
+		 * Cookie c = new Cookie("mycookie", "두쫀쿠"); c.setMaxAge(60*60*4);
+		 * response.addCookie(c);
+		 */
 		
 		return "index";
 	}
+	@RequestMapping("/loginpage")
+	public void loginpage() {}
 }

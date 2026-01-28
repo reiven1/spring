@@ -1679,3 +1679,314 @@
 {"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-23T18:18:15","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@3f317881"}
 {"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-23T18:18:15","message":"bean 갯수 : 64"}
 {"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-23T18:18:15","message":"msg : 로그인 후 이용할 수 있습니다."}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-23T18:36:43","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-23T18:36:43","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-23T18:36:43","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"ERROR","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-23T18:36:44","message":"==== 에러 발생 ===="}
+{"level":"ERROR","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-23T18:36:44","message":"에러 내용 : nested exception is org.apache.ibatis.exceptions.PersistenceException: \r\n### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (ORA-17868: 알 수 없는 호스트가 지정되었습니다.: 알려진 호스트가 없습니다 (teacher09dev.kro.kr)\r\nhttps://docs.oracle.com/error-help/db/ora-17868/)\r\n### The error may exist in file [C:\\Users\\knuser\\git\\spring\\springweb\\target\\classes\\mappers\\member-mapper.xml]\r\n### The error may involve member.selectMemberById\r\n### The error occurred while executing a query\r\n### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (ORA-17868: 알 수 없는 호스트가 지정되었습니다.: 알려진 호스트가 없습니다 (teacher09dev.kro.kr)\r\nhttps://docs.oracle.com/error-help/db/ora-17868/)"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-23T18:37:21","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-23T18:37:21","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-23T18:37:21","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-23T18:37:25","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-23T18:37:25","message":"실행 시간 : 4521ms"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-23T18:37:26","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-26T10:32:14","message":"reiven1"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-26T10:32:14","message":"reiven12"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T10:32:14","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T10:32:19","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T10:32:19","message":"실행 시간 : 4418ms"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-26T10:32:19","message":"Member(userId=reiven1, password=$2a$10$LfHpSIngsHvBK098a3ju1e/SMS2uGm3IVRhnM5XkqDsC/fOsP4vNi, userName=하승우, gender=M, age=25, email=reiven_@naver.com, phone=01049776038, address=123, hobby=[운동, 등산, 독서, 게임, 여행], enrollDate=2026-01-22)"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-26T10:39:17","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-26T10:39:17","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T10:39:17","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-26T10:39:19","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-26T10:39:19","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T10:39:19","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T10:39:22","message":"==== 메소드 실행 후 ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T10:39:22","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T10:39:22","message":"실행 시간 : 2419ms"}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T10:39:22","message":"실행 시간 : 4270ms"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-26T10:39:22","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-26T10:39:22","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-26T10:40:14","message":"admin"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-26T10:40:14","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T10:40:14","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T10:40:18","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T10:40:18","message":"실행 시간 : 4087ms"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-26T10:40:18","message":"Member(userId=admin, password=$2a$10$jCoHypVhflJxrq.LPp29oenCJO7EN5Z/i81lez4PK9dTRSnTk5uMy, userName=관리자, gender=F, age=33, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2026-01-14)"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.PropertyController","instant":"2026-01-26T11:56:50","message":"myspringapp"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.PropertyController","instant":"2026-01-26T11:56:50","message":"123.123.123.123"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.PropertyController","instant":"2026-01-26T11:56:50","message":"myuser"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.PropertyController","instant":"2026-01-26T11:56:50","message":"myuser"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.PropertyController","instant":"2026-01-26T11:57:28","message":"myspringapp"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.PropertyController","instant":"2026-01-26T11:57:28","message":"123.123.123.123"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.PropertyController","instant":"2026-01-26T11:57:28","message":"myuser"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.PropertyController","instant":"2026-01-26T11:57:28","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.PropertyController","instant":"2026-01-26T12:11:17","message":"my"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.PropertyController","instant":"2026-01-26T12:11:17","message":"123.123.123.123"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.PropertyController","instant":"2026-01-26T12:11:17","message":"1235"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.PropertyController","instant":"2026-01-26T12:11:17","message":"12345"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:23","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:23","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:23","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:23","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"ERROR","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:23","message":"==== 에러 발생 ===="}
+{"level":"ERROR","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:23","message":"에러 내용 : Cannot invoke \"java.lang.Integer.intValue()\" because the return value of \"java.util.Map.get(Object)\" is null"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:27","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:27","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:27","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:27","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"ERROR","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:27","message":"==== 에러 발생 ===="}
+{"level":"ERROR","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:27","message":"에러 내용 : Cannot invoke \"java.lang.Integer.intValue()\" because the return value of \"java.util.Map.get(Object)\" is null"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:28","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:28","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:28","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:28","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"ERROR","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:28","message":"==== 에러 발생 ===="}
+{"level":"ERROR","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:28","message":"에러 내용 : Cannot invoke \"java.lang.Integer.intValue()\" because the return value of \"java.util.Map.get(Object)\" is null"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:28","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:28","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:28","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:28","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"ERROR","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:28","message":"==== 에러 발생 ===="}
+{"level":"ERROR","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:28","message":"에러 내용 : Cannot invoke \"java.lang.Integer.intValue()\" because the return value of \"java.util.Map.get(Object)\" is null"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:28","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:28","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:28","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:28","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"ERROR","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:28","message":"==== 에러 발생 ===="}
+{"level":"ERROR","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:28","message":"에러 내용 : Cannot invoke \"java.lang.Integer.intValue()\" because the return value of \"java.util.Map.get(Object)\" is null"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:41","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:41","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:41","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:41","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"ERROR","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:41","message":"==== 에러 발생 ===="}
+{"level":"ERROR","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:25:41","message":"에러 내용 : Cannot invoke \"java.lang.Integer.intValue()\" because the return value of \"java.util.Map.get(Object)\" is null"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:28:46","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:28:46","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:28:46","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:28:46","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"ERROR","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:28:46","message":"==== 에러 발생 ===="}
+{"level":"ERROR","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:28:46","message":"에러 내용 : Cannot invoke \"java.lang.Integer.intValue()\" because the return value of \"java.util.Map.get(Object)\" is null"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:31:01","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:31:01","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:31:01","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:31:01","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"ERROR","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:31:01","message":"==== 에러 발생 ===="}
+{"level":"ERROR","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:31:01","message":"에러 내용 : Cannot invoke \"java.lang.Integer.intValue()\" because the return value of \"java.util.Map.get(Object)\" is null"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:18","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:18","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:18","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:18","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:23","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:23","message":"실행 시간 : 5022ms"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:23","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:23","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:23","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:23","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:23","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:23","message":"실행 시간 : 22ms"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:23","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:23","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:23","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:23","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:23","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:23","message":"실행 시간 : 20ms"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:23","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:23","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:23","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:23","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:23","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:23","message":"실행 시간 : 23ms"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:27","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:27","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:27","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:27","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:27","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:33:27","message":"실행 시간 : 20ms"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:42:53","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:42:58","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T12:42:58","message":"실행 시간 : 4592ms"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T15:24:48","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@27932880"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T15:24:48","message":"bean 갯수 : 69"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T15:24:50","message":"msg : 로그인 후 이용할 수 있습니다."}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T15:29:45","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T15:29:50","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T15:29:50","message":"실행 시간 : 4718ms"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T15:29:56","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@3ee5a91e"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T15:29:56","message":"bean 갯수 : 69"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T15:29:56","message":"msg : 로그인 후 이용할 수 있습니다."}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T15:31:22","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@3ee5a91e"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T15:31:22","message":"bean 갯수 : 69"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T15:31:22","message":"msg : 로그인 후 이용할 수 있습니다."}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:10:28","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@407d113d"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:10:28","message":"bean 갯수 : 69"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:10:28","message":"msg : 로그인 후 이용할 수 있습니다."}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:10:30","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@407d113d"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:10:30","message":"bean 갯수 : 69"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:10:30","message":"msg : 로그인 후 이용할 수 있습니다."}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:10:33","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@407d113d"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:10:33","message":"bean 갯수 : 69"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:10:33","message":"msg : 로그인 후 이용할 수 있습니다."}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:10:34","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@407d113d"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:10:34","message":"bean 갯수 : 69"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:10:34","message":"msg : 로그인 후 이용할 수 있습니다."}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:12:27","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@6dbffb3c"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:12:27","message":"bean 갯수 : 69"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:12:27","message":"msg : 로그인 후 이용할 수 있습니다."}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:12:29","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@6dbffb3c"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:12:29","message":"bean 갯수 : 69"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:12:29","message":"msg : 로그인 후 이용할 수 있습니다."}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:12:30","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@6dbffb3c"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:12:30","message":"bean 갯수 : 69"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:12:30","message":"msg : 로그인 후 이용할 수 있습니다."}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:12:31","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@6dbffb3c"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:12:31","message":"bean 갯수 : 69"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:12:32","message":"msg : 로그인 후 이용할 수 있습니다."}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:12:32","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@6dbffb3c"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:12:32","message":"bean 갯수 : 69"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:12:32","message":"msg : 로그인 후 이용할 수 있습니다."}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:12:33","message":"service : com.bs.spring.model.service.member.MemberServiceImpl@6dbffb3c"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:12:33","message":"bean 갯수 : 69"}
+{"level":"DEBUG","logger":"com.bs.spring.common.interceptor.LoginCheckInterceptor","instant":"2026-01-26T16:12:33","message":"msg : 로그인 후 이용할 수 있습니다."}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:33","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:33","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:33","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:33","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:38","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:38","message":"실행 시간 : 4220ms"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:38","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:38","message":"com.bs.spring.model.service.board.BoardService.searchBoardCount"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:38","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:39","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:39","message":"===== within 으로 적용 -> 구현 인터페이스 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:39","message":"com.bs.spring.model.dao.demo.DemoDao.selectDemoAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:39","message":"========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:39","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:39","message":"실행 시간 : 98ms"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:39","message":"===== within 으로 적용 -> 구현 인터페이스 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:39","message":"com.bs.spring.model.dao.demo.DemoDao.countDemo"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:39","message":"========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:42","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:42","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:42","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:42","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:42","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:42","message":"실행 시간 : 22ms"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:42","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:42","message":"com.bs.spring.model.service.board.BoardService.searchBoardCount"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:42","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:56","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:56","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:56","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:56","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:56","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:56","message":"실행 시간 : 19ms"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:56","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:56","message":"com.bs.spring.model.service.board.BoardService.searchBoardCount"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:56","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:59","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:59","message":"===== within 으로 적용 -> 구현 인터페이스 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:59","message":"com.bs.spring.model.dao.demo.DemoDao.selectDemoAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:59","message":"========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:59","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:59","message":"실행 시간 : 45ms"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:59","message":"===== within 으로 적용 -> 구현 인터페이스 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:59","message":"com.bs.spring.model.dao.demo.DemoDao.countDemo"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:13:59","message":"========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:20","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:20","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:20","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:20","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:20","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:20","message":"실행 시간 : 23ms"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:20","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:20","message":"com.bs.spring.model.service.board.BoardService.searchBoardCount"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:20","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:22","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:22","message":"com.bs.spring.model.service.board.BoardService.searchBoardByNo"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:22","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:35","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:35","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:35","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:35","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:35","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:35","message":"실행 시간 : 20ms"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:35","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:35","message":"com.bs.spring.model.service.board.BoardService.searchBoardCount"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:35","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:45","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:45","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:45","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:45","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:45","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:45","message":"실행 시간 : 20ms"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:45","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:45","message":"com.bs.spring.model.service.board.BoardService.searchBoardCount"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:14:45","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:14","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:14","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:14","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:14","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:14","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:14","message":"실행 시간 : 24ms"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:14","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:14","message":"com.bs.spring.model.service.board.BoardService.searchBoardCount"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:14","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:31","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:31","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:31","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:31","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:31","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:31","message":"실행 시간 : 19ms"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:31","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:31","message":"com.bs.spring.model.service.board.BoardService.searchBoardCount"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:31","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:32","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:32","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:32","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:32","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:32","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:32","message":"실행 시간 : 18ms"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:32","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:32","message":"com.bs.spring.model.service.board.BoardService.searchBoardCount"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:16:32","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:17:23","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:17:23","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:17:23","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:17:23","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:17:27","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:17:27","message":"실행 시간 : 4286ms"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:17:27","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:17:27","message":"com.bs.spring.model.service.board.BoardService.searchBoardCount"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:17:27","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:17:52","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:17:52","message":"com.bs.spring.model.service.board.BoardService.searchBoardAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:17:52","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:17:52","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:17:52","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:17:52","message":"실행 시간 : 23ms"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:17:52","message":"===== within 으로 적용 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:17:52","message":"com.bs.spring.model.service.board.BoardService.searchBoardCount"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T16:17:52","message":"=========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T17:36:51","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T17:36:51","message":"===== within 으로 적용 -> 구현 인터페이스 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T17:36:51","message":"com.bs.spring.model.dao.demo.DemoDao.selectDemoAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T17:36:51","message":"========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T17:36:51","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T17:36:51","message":"실행 시간 : 93ms"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T17:36:51","message":"===== within 으로 적용 -> 구현 인터페이스 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T17:36:51","message":"com.bs.spring.model.dao.demo.DemoDao.countDemo"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T17:36:51","message":"========================="}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-26T17:39:13","message":"reiven1"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-26T17:39:13","message":"reiven12"}
+{"level":"DEBUG","logger":"com.bs.spring.controller.member.MemberController","instant":"2026-01-26T17:39:13","message":"Member(userId=reiven1, password=$2a$10$LfHpSIngsHvBK098a3ju1e/SMS2uGm3IVRhnM5XkqDsC/fOsP4vNi, name=null, gender=M, age=25, email=reiven_@naver.com, phone=01049776038, address=123, hobby=[운동, 등산, 독서, 게임, 여행], enrollDate=2026-01-22)"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T17:49:32","message":"==== 어노테이션으로 적용한 aop ===="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T17:49:36","message":"===== within 으로 적용 -> 구현 인터페이스 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T17:49:36","message":"com.bs.spring.model.dao.demo.DemoDao.selectDemoAll"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T17:49:36","message":"========================="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T17:49:36","message":"==== 메소드 실행 후 ===="}
+{"level":"INFO","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T17:49:36","message":"실행 시간 : 4238ms"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T17:49:36","message":"===== within 으로 적용 -> 구현 인터페이스 ====="}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T17:49:36","message":"com.bs.spring.model.dao.demo.DemoDao.countDemo"}
+{"level":"DEBUG","logger":"com.bs.spring.common.aop.Annoaspect","instant":"2026-01-26T17:49:36","message":"========================="}

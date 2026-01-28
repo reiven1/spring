@@ -1,11 +1,13 @@
 package com.bs.spring.controller.member;
 
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.SessionAttribute;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
 
@@ -56,7 +58,7 @@ public class MemberController {
 		log.debug(userId);
 		log.debug(password);
 		Member loginMember = service.loginMember(userId, password);
-		log.debug("{}",loginMember);
+		log.debug("{}", loginMember);
 		if (loginMember != null) {
 //			session.setAttribute("loginMember", loginMember);
 			model.addAttribute("loginMember", loginMember);
@@ -94,13 +96,17 @@ public class MemberController {
 	}
 
 	@RequestMapping("/memberview.do")
-	public String memberView(@SessionAttribute("loginMember") Member loginMember, Model model) {
+	public String memberView(Model model) {
+		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+		Member loginMember = (Member) auth.getPrincipal();
+//		System.out.println(loginMember);
+		
 		Member m = service.selectMemberById(loginMember.getUserId());
-		System.out.println(m);
+//		System.out.println(m);
 		model.addAttribute("member", m);
 		return "member/memberview";
 	}
-	
+
 	@RequestMapping("/idduplicate.do")
 	@ResponseBody
 	public boolean membersearch(String userId) {

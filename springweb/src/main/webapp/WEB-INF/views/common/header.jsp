@@ -2,6 +2,7 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <c:set var="path" value="${pageContext.request.contextPath }" />
+<c:set var="loginMember" value="${sessionScope.SPRING_SECURITY_CONTEXT.authentication.principal }"/>
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,50 +31,67 @@
 		<header>
 			<div id="header-container"></div>
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<a class="navbar-brand" href="#"><img alt="로고" src="${path }/resources/images/logo-spring.png" width="50px"></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<a class="navbar-brand" href="#"><img alt="로고"
+					src="${path }/resources/images/logo-spring.png" width="50px"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarNav" aria-controls="navbarNav"
+					aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav mr-auto">
-						<li class="nav-item active"><a class="nav-link" href="${path }">HOME</a></li>
-						<li class="nav-item active"><a class="nav-link" href="${path }/bean/beantest">SpringBean</a></li>
-						<li class="nav-item active"><a class="nav-link" href="${path }/demo/demo.do">DEMO</a></li>
-						<li class="nav-item active"><a class="nav-link" href="${path }/demo/demolist.do">DEMO리스트</a></li>
-						<li class="nav-item active"><a class="nav-link" href="${path }/board/boardlist.do">게시판</a></li>
+						<li class="nav-item active"><a class="nav-link"
+							href="${path }">HOME</a></li>
+						<li class="nav-item active"><a class="nav-link"
+							href="${path }/bean/beantest">SpringBean</a></li>
+						<li class="nav-item active"><a class="nav-link"
+							href="${path }/demo/demo.do">DEMO</a></li>
+						<li class="nav-item active"><a class="nav-link"
+							href="${path }/demo/demolist.do">DEMO리스트</a></li>
+						<li class="nav-item active"><a class="nav-link"
+							href="${path }/board/boardlist.do">게시판</a></li>
+						<li class="nav-item active"><a class="nav-link"
+							href="${path }/validator/page.do">Validator</a></li>
 					</ul>
-					<c:if test="${sessionScope.loginMember==null }">
-						<button class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#loginModal">로그인</button>
+					<c:if test="${loginMember==null }">
+						<button class="btn btn-outline-success my-2 my-sm-0"
+							data-toggle="modal" data-target="#loginModal">로그인</button>
 						&nbsp;
-						<button class="btn btn-outline-primary my-2 my-sm-0" onclick="location.assign('${path}/member/insertmember.do');">회원가입</button>
+						<button class="btn btn-outline-primary my-2 my-sm-0"
+							onclick="location.assign('${path}/member/insertmember.do');">회원가입</button>
 					</c:if>
-					<c:if test="${sessionScope.loginMember!=null }">
-						<span> 
-							<a href="${path }/member/memberview.do"> ${loginMember.userName } </a> 님 환영합니다.
+					<c:if test="${loginMember!=null }">
+						<span> <a href="${path }/member/memberview.do">
+								${loginMember.userId } </a> 님 환영합니다.
 						</span>
-						<button class="btn btn-outline-dark my-2 my-sm-0" onclick="location.replace('${path}/member/logout');">로그아웃</button>
+						<button class="btn btn-outline-dark my-2 my-sm-0"
+							onclick="location.replace('${path}/logout');">로그아웃</button>
 					</c:if>
 				</div>
 			</nav>
 		</header>
-		<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+		<div class="modal fade" id="loginModal" tabindex="-1" role="dialog"
+			aria-labelledby="loginModalLabel" aria-hidden="true">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
 						<h5 class="modal-title" id="loginModalLabel">로그인</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="close">
+						<button type="button" class="close" data-dismiss="modal"
+							aria-label="close">
 							<span aria-hidden="true">&times;</span>
 						</button>
 					</div>
-					<form action="${path }/member/login" method="post">
+					<form action="${path }/loginend.do" method="post">
 						<div class="modal-body">
 							<input type="text" name="userId" class="form-control"
-								placeholder="아이디입력" required><br> 
-								<input type="password" name="password" class="form-control" placeholder="패스워드입력" required>
+								placeholder="아이디입력" required><br> <input
+								type="password" name="password" class="form-control"
+								placeholder="패스워드입력" required>
 						</div>
 						<div class="modal-footer">
 							<button type="submit" class="btn btn-outline-success">로그인</button>
-							<button type="button" class="btn btn-outline-success" data-dismiss="modal">취소</button>
+							<button type="button" class="btn btn-outline-success"
+								data-dismiss="modal">취소</button>
 						</div>
 					</form>
 				</div>
